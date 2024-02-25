@@ -1,0 +1,84 @@
+#caja{
+    width: 100%;
+    position: relative;
+    margin: 40px 20px 0 0;
+}
+
+#logo{
+    width: 120px;
+    height: 48px;
+    margin: 40px 0  0 40px;
+}
+
+#titulo{
+    font-size: 4em;
+    color: rgba(10, 56, 113, 1);
+    margin: 0 0 45px 25%;
+    display: inline-block;
+}
+
+body{
+    background: rgba(243, 245, 252, 1);
+}
+
+.textos{
+    width: 100%;
+    padding: 50px;
+}
+
+.textos section{
+    display: inline-block;
+    text-align: center;
+}
+
+#texto-plano{
+    width: 400px;
+    height: 500px;
+    vertical-align: top;
+    font-size: 2em;
+    border: none;
+    background: rgba(243, 245, 252, 1);
+}
+
+#mensaje{
+    width: 300px;
+    height: 500px;
+    border-radius: 12px;
+    background: white;
+    font-size: 1.5em;
+}
+
+#no-texto{
+    padding: 0 0 65px 0;
+}
+
+.caja-btns{
+    width: max-content;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+button{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+#encriptar{
+   background: rgba(10, 56, 113, 1);
+   color: white;
+   border: 0px;
+   margin: 0 25px 0 0;
+}
+
+#desencriptar, #copiar{
+    background: (216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+    border: 1px solid rgba(10, 56, 113, 1);
+}
+
+/*footer{
+    background-color: black;
+    text-align: center;
+    color:aliceblue;
+}*/
